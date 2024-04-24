@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\facun\\source\\repos\\GIT\\GiftCards_App\\Backend\\GiftCardsApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{123C8443-5677-4F14-89AC-5A521D3F89EA}|GiftCardsApi\\GiftCardsApi.csproj|c:\\users\\facun\\source\\repos\\git\\giftcards_app\\backend\\giftcardsapi\\giftcardsapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123C8443-5677-4F14-89AC-5A521D3F89EA}|GiftCardsApi\\GiftCardsApi.csproj|solutionrelative:giftcardsapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\facun\\source\\repos\\GIT\\GiftCards_App\\Backend\\GiftCardsApi\\GiftCardsApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "GiftCardsApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\facun\\source\\repos\\GIT\\GiftCards_App\\Backend\\GiftCardsApi\\GiftCardsApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "GiftCardsApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T03:44:54.143Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
