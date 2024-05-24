@@ -1,1 +1,32 @@
-<p>giftCard-Create works!</p>,
+<div class="max-w-md mx-auto p-6 bg-white border border-gray-200 rounded-lg shadow-md">
+  <form>
+    <div class="mb-4">
+      <label for="cliente" class="block text-black font-bold mb-2">Cliente</label>
+      <input id="cliente" type="text" class="w-full p-2 border border-violet-300 rounded focus:outline-none focus:border-violet-500">
+    </div>
+
+    <div class="mb-4">
+      <label for="tipo-regalo" class="block text-black font-bold mb-2">Tipo de regalo</label>
+      <select id="tipo-regalo" class="w-full p-2 border border-violet-300 rounded focus:outline-none focus:border-violet-500" [(ngModel)]="selectedRegalo" name="tipoRegalo">
+        @for (option of tipoRegalo(); track $index) {
+          <option [value]="option">{{ option }}</option>
+        }
+      </select>
+    </div>
+
+    <div class="mb-4">
+      <label for="fecha-inicio" class="block text-black font-bold mb-2">Fecha inicio</label>
+      <input id="fecha-inicio" type="date" class="w-full p-2 border border-violet-300 rounded focus:outline-none focus:border-violet-500">
+    </div>
+
+    <div class="mb-4">
+      <label for="fecha-expiracion" class="block text-black font-bold mb-2">Fecha expiración</label>
+      <input id="fecha-expiracion" type="date" class="w-full p-2 border border-violet-300 rounded focus:outline-none focus:border-violet-500">
+    </div>
+
+    <div class="mb-4">
+      <label for="fondo" class="block text-black font-bold mb-2">Fondo</label>
+      <textarea id="fondo" class="w-full p-2 border border-violet-300 rounded focus:outline-none focus:border-violet-500"></textarea>
+    </div>
+  </form>
+</div>
